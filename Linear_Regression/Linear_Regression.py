@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
     # get dataset
     X, y = datasets.make_regression(
-        n_samples=1000, n_features=1, noise=20, random_state=1
+        n_samples=500, n_features=1, noise=50, random_state=42
     )
 
     # split dataset
